@@ -1,0 +1,83 @@
+/*how does specific work?*/
+/*how does changing font and color work*/
+/*how does position work?*/
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('fonts/WorkSans-Bold.otf');
+}
+
+li  {
+    color: firebrick;
+}
+
+ul li{
+    color: green;
+    font-family: 'WorkSans-Bold';
+}
+
+div {
+    /*display: block;*/
+}
+#box-1 {
+    border: solid red 3px;
+}
+.relative {
+    border: solid green 3px;
+    position: relative;
+    padding-bottom: 0px;
+    border-to
+}
+.relative-2 {
+    border: solid blue 3px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    background-color: white;
+    width: 500px;
+}
+.fixed {
+    border: solid #E29229 3px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    width: 200px;
+    z-index: 9999; 
+}
+
+#absolute-1{
+    border: solid deeppink 3px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    width: 200px;
+    height: relative;
+}
+.relative-ancestor {
+    border: solid green 3px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    z-index: 9999; 
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+#movebox {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 0px;
+}
+
+.redred {
+    background-color: red;
+}
+.greengreen {
+    background-color: springgreen;
+}
